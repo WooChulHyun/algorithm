@@ -2,7 +2,6 @@ var song = "WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB";
 
 function songDecoder(song) {
     var songArr = song.split("");
-    console.log(songArr);
     for (var i = 0; i < songArr.length; i++) {
         if (songArr[i] === "W") {
             if (songArr[i + 1] === "U" && songArr[i + 2] === "B") {
@@ -17,7 +16,6 @@ function songDecoder(song) {
             j--;
         }
     }
-    console.log(songArr);
     return songArr.join("").trim();
 }
 
