@@ -11,7 +11,7 @@ function solution(answers) {
     [3, 3, 1, 1, 2, 2, 4, 4, 5, 5]
   ];
 
-  for (let i = 0; i < answer.length; i++) {
+  for (let i = 0; i < answers.length; i++) {
     if (person[0][i % 5] === answers[i]) {
       a++;
     }
