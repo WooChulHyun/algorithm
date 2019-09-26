@@ -35,10 +35,6 @@ function solution(answers) {
     answer.push(3);
   }
 
-  console.log(a);
-  console.log(b);
-  console.log(c);
-
   return answer;
 }
 
